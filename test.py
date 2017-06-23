@@ -1,3 +1,6 @@
 print 123
 
-try
+try:
+    print 123
+finally:
+    print 6
