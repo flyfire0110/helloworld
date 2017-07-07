@@ -379,7 +379,7 @@ class Couple:
         else:
             LS2 = Short
 
-        self.state['result'][str(pos)] = (LS2,k8up-k8np)
+        self.state['result'][str(pos)] = (LS2,abs(sss))
         self.save_state()
     def new_price(self,timer,Price,TradingDay):
         if 1:
